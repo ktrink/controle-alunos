@@ -1,0 +1,59 @@
+Inicializar NPM
+    npm init -y
+TypeScript
+    npm install typescript --save-dev
+Execução concorrente
+    npm install concurrently --save-dev
+servidor de apoio
+    npm install lite-server --save-dev
+Testes
+    npm install jest --save-dev
+ESLint
+    npm install eslint --save-dev
+mySQL
+    npm install mysql2
+    npm install sequelize
+    npm install sequelize-cli
+Criptografia de senhas
+    npm install bcryptjs 
+JWT
+    npm install jsonwebtoken
+Middleware de controle de estratégia de login    
+    npm install passport
+    npm install passport-local
+Middleware de controle de estratégia de login Bearer
+    npm install passport-http-bearer
+Leitura de variáveis de ambiente
+    npm install dotenv
+Redis
+    npm install redis
+E-mail
+    npm install nodemailer
+Trabalhar com datas e horários
+    npm install moment
+Controle de acesso
+    npm install accesscontrol
+Path
+    npm install path
+
+
+
+Criar estrutura inicial de uso do SEQUELIZE
+    npx sequelize-cli init
+Criar models
+    npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+    npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string
+    npx sequelize-cli model:create --name Turmas --attributes data_inicio:dateonly
+    npx sequelize-cli model:create --name Matriculas --attributes status:string
+Migrar dados para BD
+    npx sequelize-cli db:migrate
+    npx sequelize-cli db:migrate:undo (UNDO)
+Criar arquivo para popular tabelas
+    npx sequelize-cli seed:generate --name demo-pessoa
+Popular tabelas
+    npx sequelize-cli db:seed:all
+    npx sequelize-cli db:seed:undo (UNDO)
+Adicionar nova coluna em uma tabela
+    npx sequelize-cli    
+Gerar chave aleatório para JWT (executar no terminal)
+    node -e "console.log(require('crypto').randomBytes(256).toString('base64'))"
