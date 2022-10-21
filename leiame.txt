@@ -1,4 +1,4 @@
-Inicializar NPM
+Inicializar NPM para teste de Merge
     npm init -y
 TypeScript teste me Merge
     npm install typescript --save-dev
