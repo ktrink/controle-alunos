@@ -1,6 +1,6 @@
 Inicializar NPM para teste de Merge na branch
     npm init -y
-TypeScript teste me Merge
+TypeScript teste me Merge na branch
     npm install typescript --save-dev
 Execução concorrente
     npm install concurrently --save-dev
