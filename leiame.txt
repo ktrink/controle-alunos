@@ -2,7 +2,7 @@ Inicializar NPM para teste de Merge no Main
     npm init -y
 TypeScript
     npm install typescript --save-dev
-Execução concorrente
+Execução concorrente (merge no Main)
     npm install concurrently --save-dev
 servidor de apoio
     npm install lite-server --save-dev
